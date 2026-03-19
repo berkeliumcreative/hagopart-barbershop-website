@@ -1,81 +1,106 @@
 {
-  "businessName": "Sample Business",
-  "tagline": "Professional services you can trust",
+  "businessName": "Hagopart Barbershop",
+  "tagline": "Where Style Meets Precision in Glendale",
   "hero": {
-    "heading": "Welcome to Sample Business",
-    "subheading": "Providing quality service to our community for over a decade",
-    "ctaText": "Get in Touch",
-    "ctaLink": "#contact",
+    "heading": "Premium Barbering. No Compromises.",
+    "subheading": "Expert haircuts and grooming in Glendale. Built on passion, perfected with skill. Walk-ins welcome.",
+    "ctaText": "Call Us",
+    "ctaLink": "tel:(818) 334-3011",
     "secondaryCtaText": "Our Services",
     "secondaryCtaLink": "#services"
   },
   "about": {
-    "heading": "About Us",
+    "heading": "About Hagopart Barbershop",
     "paragraphs": [
-      "We are a trusted local business committed to delivering exceptional service and building lasting relationships with our customers.",
-      "Our experienced team brings expertise and dedication to every project, ensuring your complete satisfaction."
+      "Hagopart Barbershop is a new barbershop in Glendale built on passion and perfected with skill. We believe barbering is not just a job — it's a craft that demands precision, creativity, and respect for every client.",
+      "Our team delivers clean cuts, sharp fades, and expert beard work in a modern, welcoming environment. Whether you want a classic look or something bold, we bring the skill to make it happen."
     ]
   },
   "services": [
     {
-      "title": "Consultations",
-      "description": "Free initial consultations to understand your needs and provide the best solution.",
-      "icon": "phone"
+      "title": "Precision Haircuts",
+      "description": "Tailored cuts for every style — from classic to contemporary. Each cut is crafted with attention to detail.",
+      "icon": "scissors"
     },
     {
-      "title": "Quality Service",
-      "description": "Professional, reliable service delivered on time and within budget.",
+      "title": "Skin Fades",
+      "description": "Seamless skin fades from bald to high. Clean blending that stands out.",
+      "icon": "award"
+    },
+    {
+      "title": "Beard Grooming",
+      "description": "Professional beard shaping, trimming, and line-ups to keep your facial hair looking sharp.",
+      "icon": "scissors"
+    },
+    {
+      "title": "Hot Towel Shave",
+      "description": "Classic straight razor shave with hot towels for a smooth, refreshing finish.",
+      "icon": "sparkles"
+    },
+    {
+      "title": "Kids Cuts",
+      "description": "Friendly, patient service for younger clients. Fresh cuts for all ages.",
+      "icon": "users"
+    },
+    {
+      "title": "Hair Design",
+      "description": "Custom designs and creative patterns carved with surgical precision.",
       "icon": "star"
-    },
-    {
-      "title": "Customer Support",
-      "description": "Ongoing support and follow-up to ensure your complete satisfaction.",
-      "icon": "wrench"
     }
   ],
   "reviews": [
     {
-      "name": "John D.",
+      "name": "Aram G.",
       "rating": 5,
-      "text": "Excellent service! Highly recommend to anyone looking for quality work."
+      "text": "New shop but incredible quality. The attention to detail is next level. Found my new go-to barbershop."
     },
     {
-      "name": "Sarah M.",
+      "name": "David S.",
       "rating": 5,
-      "text": "Professional, on time, and great communication throughout the process."
+      "text": "Clean fade, great atmosphere, friendly barbers. What more could you ask for?"
     },
     {
-      "name": "Mike R.",
+      "name": "Tigran M.",
       "rating": 5,
-      "text": "Best in the area. Fair prices and outstanding results every time."
+      "text": "These guys are building something special. Skill and passion in every cut. Highly recommend checking them out."
     }
   ],
   "contact": {
-    "address": "123 Business Ave, Anytown, USA",
-    "phone": "(555) 987-6543",
-    "email": "info@samplebusiness.com",
+    "address": "1111 S Glendale Ave # 201, Glendale, CA 91205",
+    "phone": "(818) 334-3011",
+    "email": "info@hagopartbarbershop.com",
     "hours": {
-      "Monday - Friday": "8:00 AM - 6:00 PM",
-      "Saturday": "9:00 AM - 2:00 PM",
-      "Sunday": "Closed"
+      "Monday": "9:00 AM - 7:00 PM",
+      "Tuesday": "9:00 AM - 7:00 PM",
+      "Wednesday": "9:00 AM - 7:00 PM",
+      "Thursday": "9:00 AM - 7:00 PM",
+      "Friday": "9:00 AM - 7:00 PM",
+      "Saturday": "9:00 AM - 6:00 PM",
+      "Sunday": "10:00 AM - 5:00 PM"
     },
-    "mapEmbedQuery": "123+Business+Ave+Anytown+USA"
+    "mapEmbedQuery": "Hagopart+Barbershop+1111+S+Glendale+Ave+Glendale+CA"
   },
   "social": {
-    "instagram": "",
+    "instagram": "https://www.instagram.com/hagopart_la/",
     "facebook": "",
-    "yelp": "",
+    "yelp": "https://www.yelp.com/biz/hagopart-barbershop-glendale",
     "tiktok": "",
     "bookingUrl": ""
   },
   "seo": {
-    "title": "Sample Business | Professional Services in Anytown",
-    "description": "Sample Business provides professional, reliable services in Anytown. Contact us for a free consultation.",
-    "keywords": ["business", "services", "professional", "anytown"]
+    "title": "Hagopart Barbershop | Premium Barbershop in Glendale CA",
+    "description": "Hagopart Barbershop in Glendale CA. Expert haircuts, fades, beard grooming, and hot towel shaves. Walk-ins welcome. Call (818) 334-3011.",
+    "keywords": [
+      "barbershop Glendale CA",
+      "haircut Glendale",
+      "fade Glendale",
+      "barber near me",
+      "beard trim Glendale"
+    ]
   },
   "theme": {
     "primaryColor": "#0f172a",
-    "accentColor": "#3b82f6",
+    "accentColor": "#dc2626",
     "fontFamily": "Poppins"
   }
 }
