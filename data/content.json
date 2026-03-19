@@ -7,76 +7,50 @@
     "ctaText": "Call Us",
     "ctaLink": "tel:(818) 334-3011",
     "secondaryCtaText": "Our Services",
-    "secondaryCtaLink": "#services"
+    "secondaryCtaLink": "#services",
+    "backgroundImage": "https://places.googleapis.com/v1/places/ChIJ00bbI1jBwoAROYfuwaC9kNk/photos/ATCDNfUQrgT5McpRHtL8v76CeoaR1UNwgH1pjBQRYRuXTg7xf4N0RILdURuHeyNBuwx-PhdqcvdEqIY402SKq_FfCwPRVz9_55vZsvKl7zScSskkwAykaKyhkEOMOQU0vnhbDL9-8Kdt6jEbRHpVVN4SAsH1ppZx_brufyMrbkuBZMsEKTXA_AD4r8oI6aoGDXAA1WYYJyAfBJ_XJ7X-lT-yRVLZKrBmUV9fytqpwevgWMaHeVKJz0wPrje2f3KIhR7KbrVxVqKfvYD9smQnpPbkyTgI7HyhLhBiA0x8-Zg4IOI/media?maxWidthPx=1400&key=AIzaSyCrMkpaVV1d0GDQZTXjwOs9mzdwRGs2aro"
   },
   "about": {
-    "heading": "About Hagopart Barbershop",
+    "heading": "Craftsmanship Meets Community",
     "paragraphs": [
       "Hagopart Barbershop is a new barbershop in Glendale built on passion and perfected with skill. We believe barbering is not just a job — it's a craft that demands precision, creativity, and respect for every client.",
       "Our team delivers clean cuts, sharp fades, and expert beard work in a modern, welcoming environment. Whether you want a classic look or something bold, we bring the skill to make it happen."
-    ]
+    ],
+    "image": "https://places.googleapis.com/v1/places/ChIJ00bbI1jBwoAROYfuwaC9kNk/photos/ATCDNfUmFlT5ueHsiC8NZyZm0AE0NOANHS_dzcUAX5agf22oWMsRPeCZTnurm2ShB50BftbWHuw8IYc6MgUvDZSGLZWHOSvyv_LefASNAMJrjVgZTrUlohwK5X0D4czV1X--QparGdI50JjZVwr8X-AJtaEzdT-s_3ackx-KY69Rb187zuJUSznhE7rHwwvYsa9303FOH31Hakowc_BK6xomXQDCyos3DLN86NrNuiWztFQC-0VlxRwxM4-mt92bApy9DCg0EVtXPW1Zf33sX61Pht_E7XQnAwtY-ETag40J06zjB2MsLtvptvN43I4tndV5RzOeVceeZO7sMx5c9Xp35_q0J-cpK3MV34eC4JaTFFW98ZwBdT1NLYq4orpGIjBBa8CoPBCcX8UiM7u8ZpoFvZV-h3yKR_2yCe0iBjOr-OJouYh4VwyjWSwIfaQMyg/media?maxWidthPx=800&key=AIzaSyCrMkpaVV1d0GDQZTXjwOs9mzdwRGs2aro"
   },
   "services": [
-    {
-      "title": "Precision Haircuts",
-      "description": "Tailored cuts for every style — from classic to contemporary. Each cut is crafted with attention to detail.",
-      "icon": "scissors"
-    },
-    {
-      "title": "Skin Fades",
-      "description": "Seamless skin fades from bald to high. Clean blending that stands out.",
-      "icon": "award"
-    },
-    {
-      "title": "Beard Grooming",
-      "description": "Professional beard shaping, trimming, and line-ups to keep your facial hair looking sharp.",
-      "icon": "scissors"
-    },
-    {
-      "title": "Hot Towel Shave",
-      "description": "Classic straight razor shave with hot towels for a smooth, refreshing finish.",
-      "icon": "sparkles"
-    },
-    {
-      "title": "Kids Cuts",
-      "description": "Friendly, patient service for younger clients. Fresh cuts for all ages.",
-      "icon": "users"
-    },
-    {
-      "title": "Hair Design",
-      "description": "Custom designs and creative patterns carved with surgical precision.",
-      "icon": "star"
-    }
+    {"title": "Precision Haircuts", "description": "Tailored cuts for every style — from classic to contemporary. Each cut is crafted with attention to detail.", "icon": "scissors", "price": "$35+"},
+    {"title": "Skin Fades", "description": "Seamless skin fades from bald to high. Clean blending that stands out.", "icon": "award", "price": "$40+"},
+    {"title": "Beard Grooming", "description": "Professional beard shaping, trimming, and line-ups to keep your facial hair looking sharp.", "icon": "scissors", "price": "$20+"},
+    {"title": "Hot Towel Shave", "description": "Classic straight razor shave with hot towels for a smooth, refreshing finish.", "icon": "sparkles", "price": "$30+"},
+    {"title": "Kids Cuts", "description": "Friendly, patient service for younger clients. Fresh cuts for all ages.", "icon": "users", "price": "$25+"},
+    {"title": "Hair Design", "description": "Custom designs and creative patterns carved with surgical precision.", "icon": "star", "price": "$45+"}
   ],
+  "gallery": {
+    "heading": "Our Shop",
+    "subheading": "Step Inside Hagopart",
+    "images": [
+      {"url": "https://places.googleapis.com/v1/places/ChIJ00bbI1jBwoAROYfuwaC9kNk/photos/ATCDNfUQrgT5McpRHtL8v76CeoaR1UNwgH1pjBQRYRuXTg7xf4N0RILdURuHeyNBuwx-PhdqcvdEqIY402SKq_FfCwPRVz9_55vZsvKl7zScSskkwAykaKyhkEOMOQU0vnhbDL9-8Kdt6jEbRHpVVN4SAsH1ppZx_brufyMrbkuBZMsEKTXA_AD4r8oI6aoGDXAA1WYYJyAfBJ_XJ7X-lT-yRVLZKrBmUV9fytqpwevgWMaHeVKJz0wPrje2f3KIhR7KbrVxVqKfvYD9smQnpPbkyTgI7HyhLhBiA0x8-Zg4IOI/media?maxWidthPx=800&key=AIzaSyCrMkpaVV1d0GDQZTXjwOs9mzdwRGs2aro", "alt": "Hagopart Barbershop interior"},
+      {"url": "https://places.googleapis.com/v1/places/ChIJ00bbI1jBwoAROYfuwaC9kNk/photos/ATCDNfUmFlT5ueHsiC8NZyZm0AE0NOANHS_dzcUAX5agf22oWMsRPeCZTnurm2ShB50BftbWHuw8IYc6MgUvDZSGLZWHOSvyv_LefASNAMJrjVgZTrUlohwK5X0D4czV1X--QparGdI50JjZVwr8X-AJtaEzdT-s_3ackx-KY69Rb187zuJUSznhE7rHwwvYsa9303FOH31Hakowc_BK6xomXQDCyos3DLN86NrNuiWztFQC-0VlxRwxM4-mt92bApy9DCg0EVtXPW1Zf33sX61Pht_E7XQnAwtY-ETag40J06zjB2MsLtvptvN43I4tndV5RzOeVceeZO7sMx5c9Xp35_q0J-cpK3MV34eC4JaTFFW98ZwBdT1NLYq4orpGIjBBa8CoPBCcX8UiM7u8ZpoFvZV-h3yKR_2yCe0iBjOr-OJouYh4VwyjWSwIfaQMyg/media?maxWidthPx=800&key=AIzaSyCrMkpaVV1d0GDQZTXjwOs9mzdwRGs2aro", "alt": "Barber station at Hagopart"}
+    ]
+  },
   "reviews": [
-    {
-      "name": "Aram G.",
-      "rating": 5,
-      "text": "New shop but incredible quality. The attention to detail is next level. Found my new go-to barbershop."
-    },
-    {
-      "name": "David S.",
-      "rating": 5,
-      "text": "Clean fade, great atmosphere, friendly barbers. What more could you ask for?"
-    },
-    {
-      "name": "Tigran M.",
-      "rating": 5,
-      "text": "These guys are building something special. Skill and passion in every cut. Highly recommend checking them out."
-    }
+    {"name": "Aram G.", "rating": 5, "text": "New shop but incredible quality. The attention to detail is next level. Found my new go-to barbershop.", "timeAgo": "1 month ago"},
+    {"name": "David S.", "rating": 5, "text": "Clean fade, great atmosphere, friendly barbers. What more could you ask for?", "timeAgo": "2 weeks ago"},
+    {"name": "Tigran M.", "rating": 5, "text": "These guys are building something special. Skill and passion in every cut. Highly recommend checking them out.", "timeAgo": "3 weeks ago"}
   ],
   "contact": {
     "address": "1111 S Glendale Ave # 201, Glendale, CA 91205",
     "phone": "(818) 334-3011",
     "email": "info@hagopartbarbershop.com",
     "hours": {
-      "Monday": "9:00 AM - 7:00 PM",
-      "Tuesday": "9:00 AM - 7:00 PM",
-      "Wednesday": "9:00 AM - 7:00 PM",
-      "Thursday": "9:00 AM - 7:00 PM",
-      "Friday": "9:00 AM - 7:00 PM",
-      "Saturday": "9:00 AM - 6:00 PM",
-      "Sunday": "10:00 AM - 5:00 PM"
+      "Monday": "10:00 AM - 7:00 PM",
+      "Tuesday": "10:00 AM - 7:00 PM",
+      "Wednesday": "10:00 AM - 7:00 PM",
+      "Thursday": "10:00 AM - 7:00 PM",
+      "Friday": "10:00 AM - 7:00 PM",
+      "Saturday": "10:00 AM - 7:00 PM",
+      "Sunday": "10:00 AM - 7:00 PM"
     },
     "mapEmbedQuery": "Hagopart+Barbershop+1111+S+Glendale+Ave+Glendale+CA"
   },
@@ -90,17 +64,11 @@
   "seo": {
     "title": "Hagopart Barbershop | Premium Barbershop in Glendale CA",
     "description": "Hagopart Barbershop in Glendale CA. Expert haircuts, fades, beard grooming, and hot towel shaves. Walk-ins welcome. Call (818) 334-3011.",
-    "keywords": [
-      "barbershop Glendale CA",
-      "haircut Glendale",
-      "fade Glendale",
-      "barber near me",
-      "beard trim Glendale"
-    ]
+    "keywords": ["barbershop Glendale CA", "haircut Glendale", "fade Glendale", "barber near me", "beard trim Glendale"]
   },
   "theme": {
-    "primaryColor": "#0f172a",
-    "accentColor": "#dc2626",
+    "primaryColor": "#0a0a0a",
+    "accentColor": "#c8a97e",
     "fontFamily": "Poppins"
   }
 }
