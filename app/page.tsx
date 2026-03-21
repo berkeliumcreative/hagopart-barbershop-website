@@ -17,7 +17,7 @@ import { BlurFade } from "@/components/ui/blur-fade";
 import { Spacer } from "@/components/ui/spacer";
 import { Scissors, Sparkles, Heart, Users, Award, Shield } from "lucide-react";
 
-const ICONS: Record&lt;string, React.ComponentType&lt;{ className?: string }&gt;&gt; = {
+const ICONS: Record<string, React.ComponentType<{ className?: string }>> = {
   scissors: Scissors,
   sparkles: Sparkles,
   heart: Heart,
@@ -28,9 +28,9 @@ const ICONS: Record&lt;string, React.ComponentType&lt;{ className?: string }&gt;
 
 export default function Page() {
   return (
-    &lt;main className="min-h-screen bg-background text-foreground"&gt;
+    <main className="min-h-screen bg-background text-foreground">
       {/* Navigation */}
-      &lt;MinimalNav
+      <MinimalNav
         logo={content.businessName}
         links={[
           { label: "Services", href: "#services" },
@@ -41,128 +41,128 @@ export default function Page() {
         ]}
         ctaText="Call Now"
         ctaHref={`tel:${content.contact.phone.replace(/[^0-9]/g, "")}`}
-      /&gt;
+      />
 
       {/* Hero */}
-      &lt;HeroSimple
+      <HeroSimple
         heading={content.hero.heading}
         subheading={content.hero.subheading}
         ctaText={content.hero.ctaText}
         ctaHref={content.hero.ctaLink}
         align="center"
-      /&gt;
+      />
 
       {/* Stats */}
-      &lt;StatsSection
+      <StatsSection
         stats={[
           { label: "Star Rating", value: 5, suffix: ".0" },
           { label: "Days a Week", value: 7 },
           { label: "Years of Craft", value: 10, suffix: "+" },
           { label: "Happy Clients", value: 500, suffix: "+" },
         ]}
-      /&gt;
+      />
 
       {/* About */}
-      &lt;section id="about" className="max-w-4xl mx-auto px-6 py-20 md:py-28"&gt;
-        &lt;BlurFade delay={0.1}&gt;
-          &lt;SectionHeading title={content.about.heading} /&gt;
-          &lt;div className="space-y-4 mt-8"&gt;
-            {content.about.paragraphs.map((p: string, i: number) =&gt; (
-              &lt;p key={i} className="text-muted-foreground text-lg leading-relaxed"&gt;
+      <section id="about" className="max-w-4xl mx-auto px-6 py-20 md:py-28">
+        <BlurFade delay={0.1}>
+          <SectionHeading title={content.about.heading} />
+          <div className="space-y-4 mt-8">
+            {content.about.paragraphs.map((p: string, i: number) => (
+              <p key={i} className="text-muted-foreground text-lg leading-relaxed">
                 {p}
-              &lt;/p&gt;
+              </p>
             ))}
-          &lt;/div&gt;
-        &lt;/BlurFade&gt;
-      &lt;/section&gt;
+          </div>
+        </BlurFade>
+      </section>
 
       {/* Services */}
-      &lt;section id="services" className="bg-card/50 py-20 md:py-28"&gt;
-        &lt;div className="max-w-6xl mx-auto px-6"&gt;
-          &lt;SectionHeading
+      <section id="services" className="bg-card/50 py-20 md:py-28">
+        <div className="max-w-6xl mx-auto px-6">
+          <SectionHeading
             title="Our Services"
             subtitle="Expert grooming tailored to your style"
-          /&gt;
-          &lt;div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12"&gt;
-            {content.services.map((s: any, i: number) =&gt; {
+          />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+            {content.services.map((s: any, i: number) => {
               const Icon = ICONS[s.icon] || Scissors;
               return (
-                &lt;BlurFade key={i} delay={0.05 * i}&gt;
-                  &lt;ServiceCard
+                <BlurFade key={i} delay={0.05 * i}>
+                  <ServiceCard
                     title={s.title}
                     description={s.description}
-                    icon={&lt;Icon className="w-6 h-6" /&gt;}
-                  /&gt;
-                &lt;/BlurFade&gt;
+                    icon={<Icon className="w-6 h-6" />}
+                  />
+                </BlurFade>
               );
             })}
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/section&gt;
+          </div>
+        </div>
+      </section>
 
-      &lt;Spacer size="lg" /&gt;
+      <Spacer size="lg" />
 
       {/* Reviews */}
-      &lt;section id="reviews" className="max-w-4xl mx-auto px-6 py-20 md:py-28"&gt;
-        &lt;SectionHeading
+      <section id="reviews" className="max-w-4xl mx-auto px-6 py-20 md:py-28">
+        <SectionHeading
           title="What Our Clients Say"
           subtitle="5-star experiences, every time"
-        /&gt;
-        &lt;div className="space-y-6 mt-12"&gt;
-          {content.reviews?.map((r: any, i: number) =&gt; (
-            &lt;BlurFade key={i} delay={0.1 * i}&gt;
-              &lt;TestimonialCard
+        />
+        <div className="space-y-6 mt-12">
+          {content.reviews?.map((r: any, i: number) => (
+            <BlurFade key={i} delay={0.1 * i}>
+              <TestimonialCard
                 quote={r.text}
                 author={r.author}
                 rating={r.rating}
-              /&gt;
-            &lt;/BlurFade&gt;
+              />
+            </BlurFade>
           ))}
-        &lt;/div&gt;
-      &lt;/section&gt;
+        </div>
+      </section>
 
       {/* CTA */}
-      &lt;CTABanner
+      <CTABanner
         heading="Ready for a Fresh Cut?"
         subheading="Walk-ins welcome 7 days a week. Call ahead to skip the wait."
         ctaText="Call (818) 334-3011"
         ctaHref="tel:8183343011"
         variant="gradient"
-      /&gt;
+      />
 
-      {/* Hours &amp; Map */}
-      &lt;section id="hours" className="max-w-5xl mx-auto px-6 py-20 md:py-28 grid grid-cols-1 md:grid-cols-2 gap-12"&gt;
-        &lt;div&gt;
-          &lt;SectionHeading title="Hours" align="left" /&gt;
-          &lt;div className="mt-6"&gt;
-            &lt;HoursTable hours={content.contact.hours} /&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div&gt;
-          &lt;SectionHeading title="Find Us" align="left" /&gt;
-          &lt;div className="mt-6"&gt;
-            &lt;MapEmbed query={content.contact.mapEmbedQuery} height={350} /&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/section&gt;
+      {/* Hours & Map */}
+      <section id="hours" className="max-w-5xl mx-auto px-6 py-20 md:py-28 grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div>
+          <SectionHeading title="Hours" align="left" />
+          <div className="mt-6">
+            <HoursTable hours={content.contact.hours} />
+          </div>
+        </div>
+        <div>
+          <SectionHeading title="Find Us" align="left" />
+          <div className="mt-6">
+            <MapEmbed query={content.contact.mapEmbedQuery} height={350} />
+          </div>
+        </div>
+      </section>
 
       {/* Contact */}
-      &lt;section id="contact"&gt;
-        &lt;ContactSection
+      <section id="contact">
+        <ContactSection
           phone={content.contact.phone}
           address={content.contact.address}
-        /&gt;
-      &lt;/section&gt;
+        />
+      </section>
 
       {/* Footer */}
-      &lt;FooterMinimal
+      <FooterMinimal
         businessName={content.businessName}
         links={[
           { label: "Services", href: "#services" },
           { label: "Reviews", href: "#reviews" },
           { label: "Contact", href: "#contact" },
         ]}
-      /&gt;
-    &lt;/main&gt;
+      />
+    </main>
   );
 }
