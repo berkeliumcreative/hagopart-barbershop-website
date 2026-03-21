@@ -32,7 +32,7 @@ export default function Page() {
       {/* Navigation */}
       <MinimalNav
         logo={content.businessName}
-        links={[
+        items={[
           { label: "Services", href: "#services" },
           { label: "About", href: "#about" },
           { label: "Reviews", href: "#reviews" },
